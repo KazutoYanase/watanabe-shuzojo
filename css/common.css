@@ -86,7 +86,7 @@ a {
 }
 #header .fr #nav ul li {
 	float: left;
-	margin-left: 45px;
+	margin-left: 30px;
 }
 #header .fr #nav ul li:first-child {
 	margin-left: 0;
@@ -94,28 +94,43 @@ a {
 #header .fr #nav ul li a {
 	display: block;
 	text-indent: -9999px;
-	width: 33px;
+	width: 35px;
 	height: 129px;
-	background: url("../images/nav_off.jpg");
+	background: url("../images/nav_off.png");
 }
-#header .fr #nav ul li a:hover, #header .fr #nav ul li .active {
-	background: url("../images/nav_on.jpg");
+#header .fr #nav ul li a:hover,
+#header .fr #nav ul li .active {
+	background: url("../images/nav_on.png");
 }
-#header .fr #nav ul .nav_00 a,#header .fr #nav ul .nav_00 a:hover,#header .fr #nav ul .nav_00 .active {
+#header .fr #nav ul .nav_10 a,
+#header .fr #nav ul .nav_10 a:hover,
+#header .fr #nav ul .nav_10 .active {
 	background-position: 0 0;
-    width: 55px;
 }
-#header .fr #nav ul .nav_01 a,#header .fr #nav ul .nav_01 a:hover,#header .fr #nav ul .nav_01 .active {
-	background-position: -91px 0;
+#header .fr #nav ul .nav_00 a,
+#header .fr #nav ul .nav_00 a:hover,
+#header .fr #nav ul .nav_00 .active {
+	background-position: -40px 0;
 }
-#header .fr #nav ul .nav_02 a,#header .fr #nav ul .nav_02 a:hover,#header .fr #nav ul .nav_02 .active {
-	background-position: -164px 0;
+#header .fr #nav ul .nav_01 a,
+#header .fr #nav ul .nav_01 a:hover,
+#header .fr #nav ul .nav_01 .active {
+	background-position: -80px 0;
 }
-#header .fr #nav ul .nav_03 a,#header .fr #nav ul .nav_03 a:hover,#header .fr #nav ul .nav_03 .active {
-	background-position: -237px 0;
+#header .fr #nav ul .nav_02 a,
+#header .fr #nav ul .nav_02 a:hover,
+#header .fr #nav ul .nav_02 .active {
+	background-position: -120px 0;
 }
-#header .fr #nav ul .nav_04 a,#header .fr #nav ul .nav_04 a:hover,#header .fr #nav ul .nav_04 .active {
-	background-position: -314px 0;
+#header .fr #nav ul .nav_03 a,
+#header .fr #nav ul .nav_03 a:hover,
+#header .fr #nav ul .nav_03 .active {
+	background-position: -160px 0;
+}
+#header .fr #nav ul .nav_04 a,
+#header .fr #nav ul .nav_04 a:hover,
+#header .fr #nav ul .nav_04 .active {
+	background-position: -200px 0;
 }
 
 #footer {
