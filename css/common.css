@@ -1,0 +1,235 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+	font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E", "メイリオ", Meiryo, serif;
+	font-size: 12px;
+	line-height: 1.8;
+	height: 100%;
+	min-width: 1064px;
+}
+.inner {
+	width: 940px;
+	margin: 0 auto;
+}
+/* -=-=-=- SPメニュー非表示 -=-=-=- */
+.menu,.fullscreenmenu {
+	display: none;
+}
+#sp_footnav {
+    display: none;
+}
+
+
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.of {
+	overflow: hidden;
+}
+.nb {
+	border: none !important;
+}
+a {
+	transition: all 1.0s ease;
+}
+.sp_br {
+    display: none;
+}
+
+#header {
+	background: #342709;
+	height: 200px;
+	border-bottom: 1px solid #d7a700;
+	color: #fff;
+}
+#header a {
+	color: #fff;
+}
+#header a:hover {
+	color: #d7a700;
+}
+#header .fl a {
+	margin-top: 40px;
+	margin-right: 25px;
+}
+#header .fl a img {
+	width: 120px;
+	height: 110px;
+}
+#header .fl p {
+	font-size: 14px;
+	margin-top: 65px;
+	letter-spacing: 2px;
+}
+#header .fr {
+	position: relative;
+}
+#header .fr #lang {
+	margin: 20px 0;
+}
+#header .fr #lang ul li {
+	float: right;
+	margin-right: 12px;
+	line-height: 1;
+}
+#header .fr #lang ul li:first-child {
+	margin-right: 0;
+}
+#header .fr #lang ul li a {
+	padding-left: 10px;
+	background: url("../images/lang.gif") no-repeat left center;
+	font-family: Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+#header .fr #nav ul li {
+	float: left;
+	margin-left: 45px;
+}
+#header .fr #nav ul li:first-child {
+	margin-left: 0;
+}
+#header .fr #nav ul li a {
+	display: block;
+	text-indent: -9999px;
+	width: 33px;
+	height: 129px;
+	background: url("../images/nav_off.jpg");
+}
+#header .fr #nav ul li a:hover, #header .fr #nav ul li .active {
+	background: url("../images/nav_on.jpg");
+}
+#header .fr #nav ul .nav_00 a,#header .fr #nav ul .nav_00 a:hover,#header .fr #nav ul .nav_00 .active {
+	background-position: 0 0;
+    width: 55px;
+}
+#header .fr #nav ul .nav_01 a,#header .fr #nav ul .nav_01 a:hover,#header .fr #nav ul .nav_01 .active {
+	background-position: -91px 0;
+}
+#header .fr #nav ul .nav_02 a,#header .fr #nav ul .nav_02 a:hover,#header .fr #nav ul .nav_02 .active {
+	background-position: -164px 0;
+}
+#header .fr #nav ul .nav_03 a,#header .fr #nav ul .nav_03 a:hover,#header .fr #nav ul .nav_03 .active {
+	background-position: -237px 0;
+}
+#header .fr #nav ul .nav_04 a,#header .fr #nav ul .nav_04 a:hover,#header .fr #nav ul .nav_04 .active {
+	background-position: -314px 0;
+}
+
+#footer {
+	background: #342709;
+	height: 260px;
+	color: #fff;
+	position: relative;
+}
+#footer #pagetop {
+	position: relative;
+}
+#footer #pagetop a {
+	position: absolute;
+	display: block;
+	text-indent: -9999px;
+	width: 105px;
+	height: 24px;
+	top: -24px;
+	right: 0;
+	background: url("../images/pagetop_off.png");
+}
+#footer #pagetop a:hover {
+	background: url("../images/pagetop_on.png");
+}
+#footer .fl img {
+	width: 285px;
+	height: 46px;
+	margin: 36px 0 15px;
+}
+#footer .fl table {
+	color: #fff;
+	font-size: 12px;
+}
+#footer .fl table th, #footer .fl table td {
+	font-weight: normal;
+	text-align: left;
+}
+#footer .fl table th {
+	padding: 1px 10px 1px 0;
+}
+#footer .fr #nav {
+	margin-top: 48px;
+}
+#footer .fr #nav ul li {
+	float: left;
+	border-right: 1px solid #7f7f7f;
+}
+#footer .fr #nav ul li:first-child {
+	border-left: 1px solid #7f7f7f;
+}
+#footer .fr #nav ul li a {
+	display: block;
+	text-indent: -9999px;
+	width: 144px;
+	height: 46px;
+	background: url("../images/fnav_off.jpg");
+}
+#footer .fr #nav ul li a:hover, #footer .fr #nav ul li .active {
+	background: url("../images/fnav_on.jpg");
+}
+#footer .fr #nav ul .nav_01 a,#footer .fr #nav ul .nav_01 a:hover, #footer .fr #nav ul .nav_01 .active {
+	background-position: 0 0;
+}
+#footer .fr #nav ul .nav_02 a,#footer .fr #nav ul .nav_02 a:hover, #footer .fr #nav ul .nav_02 .active {
+	background-position: -144px 0;
+}
+#footer .fr #nav ul .nav_03 a,#footer .fr #nav ul .nav_03 a:hover, #footer .fr #nav ul .nav_03 .active {
+	background-position: -288px 0;
+}
+#footer .fr #nav ul .nav_04 a,#footer .fr #nav ul .nav_04 a:hover, #footer .fr #nav ul .nav_04 .active {
+	background-position: -432px 0;
+}
+#footer p {
+	font-size: 11px;
+	text-align: center;
+	margin-top: 0px;
+    background-color: #342709;
+}
+#footer_icons {
+    width: 860px;
+    margin: 0 auto 0;
+    text-align: right;
+}
+#footer_icons a:first-child {
+    margin-right: 20px;
+}
+#content {
+	background: url("../images/bg.jpg");
+	padding-bottom: 100px;
+}
+#contentHeader {
+	background-color: #000;
+	text-align: center;
+}
+#contentHeader img {
+	width: 940px;
+	height: 500px;
+	vertical-align: bottom;
+}
+#h2wrapper {
+	width: 940px;
+	background: url("../images/line.png") no-repeat bottom left;
+	margin-top: 40px;
+	padding-bottom: 10px;
+	position: relative;
+}
+#h2wrapper h2 {
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 1.6;
+	display: table-cell;
+	vertical-align: middle;
+}
+#h2wrapper div {
+	position: absolute;
+	text-align: right;
+}

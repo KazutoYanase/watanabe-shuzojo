@@ -1,0 +1,115 @@
+.PCon {
+    display: none;
+}
+.SPon {
+    display:inline-block;
+}
+html, body {
+    min-width: 0;
+}
+
+/*コンテンツ*/
+#content {
+    width:100%;
+    padding-bottom: 20px;
+}
+#contentHeader {
+    width: 100%;
+}
+#contentHeader img {
+    width: 100%;
+    height: auto;
+}
+.inner {
+    width:90%;
+    margin: 0 auto;
+}
+#sidebar {
+  width: 100%;
+    margin-bottom: 30px;
+}
+#sidebar #listnav {
+    width: 90%;
+    margin:0 auto;
+}
+#sidebar #listnav h5 {
+    width:100%;
+    text-align:center;
+    letter-spacing: 0.2em;
+    padding-top: 25px;
+    font-size: 24px;
+    font-weight: 700;
+}
+#sidebar #listnav ul {
+    margin-bottom: 15px
+}
+#sidebar #listnav li {
+  font-size: 18px;
+  font-family: 'Noto Serif JP', serif;
+    float:left;
+    width:25%;
+    text-align: center;
+    text-decoration: underline;
+    line-height: 2.4em; 
+}
+#sidebar #listnav li a {
+  display: block;
+  color: #000;
+}
+#sidebar #listnav p {
+  font-size: 12px;
+  margin-top: 6px;
+  font-family: 'Noto Serif JP', serif;
+}
+
+
+.shoplist {
+  width: 100%;
+}
+.area__block {
+    margin-bottom:40px;
+}
+.shoplist h2 {
+    height: 60px;
+    background-image: url("/images/store/d-line.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Noto Serif JP', serif;
+    letter-spacing: 0.2em;
+    padding-left: 5%;
+}
+.shoplist .product {
+  padding: 20px 0 20px;
+    font-family: 'Noto Serif JP', serif;
+}
+.shoplist .product .shopname {
+    width: 95%;
+    padding-left: 5%;
+    float: left;
+    padding-bottom: 10px
+}
+.shoplist .product .shopname h3 {
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 26px;
+}
+.shoplist .product .pl {
+    float: left;
+    width: 95%;
+    padding-left: 5%;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.shoplist .product .pr {
+    float: left;
+    width: 95%;
+    padding-left: 5%;
+    font-size: 16px;
+    font-weight: 500;
+}
+.shoplist .product .pr a {
+    color: #000;
+}

@@ -1,0 +1,28 @@
+#header .fr #nav ul li a {
+	background: url("../../zh/images/nav_off.jpg");
+}
+#header .fr #nav ul li a:hover, #header .fr #nav ul li .active {
+	background: url("../../zh/images/nav_on.jpg");
+}
+#footer .fl img {
+	width: 302px;
+	height: 46px;
+}
+#footer .fr #nav ul li a {
+	background: url("../../zh/images/fnav_off.jpg");
+}
+#footer .fr #nav ul li a:hover, #footer .fr #nav ul li .active {
+	background: url("../../zh/images/fnav_on.jpg");
+}
+#header .fr #nav ul .nav_01 a,#header .fr #nav ul .nav_01 a:hover,#header .fr #nav ul .nav_01 .active {
+	background-position: 0px 0;
+}
+#header .fr #nav ul .nav_02 a,#header .fr #nav ul .nav_02 a:hover,#header .fr #nav ul .nav_02 .active {
+	background-position: -33px 0;
+}
+#header .fr #nav ul .nav_03 a,#header .fr #nav ul .nav_03 a:hover,#header .fr #nav ul .nav_03 .active {
+	background-position: -66px 0;
+}
+#header .fr #nav ul .nav_04 a,#header .fr #nav ul .nav_04 a:hover,#header .fr #nav ul .nav_04 .active {
+	background-position: -99px 0;
+}

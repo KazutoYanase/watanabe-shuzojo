@@ -1,0 +1,23 @@
+#m_02 .fr {
+  width: 568px;
+  margin-right: 50px;
+}
+#m_05 .message p {
+  text-indent: 2em;
+}
+#m_05 .message .sign {
+  text-indent: inherit;
+}
+#m_06 .fr {
+  width: 440px;
+}
+#m_07 table th:first-child, #m_07 table td:first-child {
+  width: 130px;
+  padding-left: 25px;
+}
+#m_07 table .mtd {
+  width: 135px;
+}
+#m_07 table .ltd {
+  padding-right: 25px;
+}

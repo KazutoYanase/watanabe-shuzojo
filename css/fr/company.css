@@ -1,0 +1,43 @@
+#m_02 .fr {
+  width: 689px;
+}
+#m_03 {
+  margin-top: 55px;
+}
+#m_04 h2, #m_05 h2 {
+  font-size: 35px;
+  font-weight: normal;
+}
+#m_05 h2 {
+  margin-top: 60px;
+  margin-left: 100px;
+}
+#m_05 h2 i {
+  top: 38px;
+  left: 0;
+}
+#m_05 .fr {
+  padding-top: 30px;
+}
+#m_05 .message p {
+font-size: 16px;
+}
+#m_05 .message .sign {
+  font-style: italic;
+}
+#m_06 i {
+  top: 88px;
+}
+#m_07 i {
+  top: 0;
+}
+#m_07 table th:first-child, #m_07 table td:first-child {
+  width: 120px;
+  padding-left: 30px;
+}
+#m_07 table .mtd {
+width: 145px;
+}
+#m_07 table .ltd {
+padding-right: 30px;
+}

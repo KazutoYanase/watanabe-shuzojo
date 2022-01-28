@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+.pcbr {
+	display: inline;
+}
+.spbr {
+	display: none;
+}
+#header .fl a {
+margin-top: 20px;
+}
+#header #nav ul li .active {
+	color: #d7a700;
+}
+#header .fl p {
+margin-top: 45px;
+letter-spacing: normal;
+}
+#header .fr #lang {
+margin-top: 45px;
+}
+#header #nav ul {
+	display: table;
+	width: 100%;
+	margin-top: 30px;
+}
+#header #nav ul li {
+	display: table-cell;
+	text-align: center;
+	padding: 0 25px;
+	font-size: 18px;
+	line-height: 22px;
+	border-right: 1px solid #d7a700;
+}
+#header #nav ul li a {
+	vertical-align: middle;
+}
+#header #nav ul li:first-child {
+	border-left: 1px solid #d7a700;
+}
+#footer .fl img {
+	width: 384px;
+	height: 46px;
+}
+#footer .fl table {
+	letter-spacing: 1px;
+}
+#footer .fl table th {
+	padding: 1px 30px 3px 0;
+}
+#footer .fl #nav {
+	height: 135px;
+	margin-top: 50px;
+	padding-left: 30px;
+	border-left: 1px solid #7f7f7f;
+}
+#footer .fl #nav ul li {
+	font-size: 13px;
+	float: none;
+	border-right: none;
+}
+#footer .fl:first-child {
+	padding-right: 75px;
+}
+#footer a {
+	color: #fff;
+}
+#footer a:hover, #footer .active {
+	color: #d7a700;
+}

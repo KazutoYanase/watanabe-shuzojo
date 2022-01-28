@@ -1,0 +1,45 @@
+@charset "UTF-8";
+.pcbr {
+	display: none;
+}
+.spbr {
+	display: inline;
+}
+#header .fl p {
+	width: 100%;
+	margin-top: 10px;
+}
+#header #nav {
+	display: none;
+}
+#humnav .spmenubtn_0 {
+    width: 88%;
+    margin: 30px 6% 30px;
+}
+#humnav .spmenubtn_1 {
+    width: 88%;
+    margin: 0 6% 30px;
+}
+#footer #nav {
+	display: none;
+}
+#footer .fl img {
+	width: 100%;
+	height: auto;
+	margin: 20px 0 20px;
+}
+#footer hr {
+	display: block;
+	margin-top: 30px;
+}
+.sp_fnavi {
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+}
+.sp_fnavi a {
+	color: #fff;
+}
+.sp_fnavi_gold {
+	color: #D7A700;
+}

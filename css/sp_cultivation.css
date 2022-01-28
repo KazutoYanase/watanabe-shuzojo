@@ -1,0 +1,136 @@
+#h2wrapper {
+  display: none;
+}
+#contentHeader {
+    display:none;
+}
+.sp_header {
+    width: 100%;
+}
+.sp_header img {
+    width: 100%;
+}
+.inner .inner {
+  width: 100%;
+    margin: 0;
+}
+.bl i {
+  display: block;
+  text-indent: -9999px;
+  position: absolute;
+}
+.bl img {
+  display: block;
+}
+.bl h3 {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0 auto;
+}
+.bl p {
+  font-size: 14px;
+    text-align: justify;
+}
+.bl .fr {
+}
+.bl .of h3 {
+}
+.bl .of p {
+}
+#m_01 {
+    margin-top: 50px;
+}
+#m_01 i {
+    display: none;
+}
+#m_01 #imo .of img {
+    display: none;
+}
+#m_01 #imo .of h3 {
+    margin: 30px 0 15px;
+}
+
+
+#m_02 {
+  margin-top: 30px;
+}
+#m_02 i {
+  display: none;
+}
+#m_02 .of img {
+  display: none;
+}
+#m_02 .of h3 {
+    margin: 30px 0 15px;
+}
+
+
+#m_03 {
+  margin: 30px 0 15px;
+}
+#m_03 i {
+  display: none;
+}
+#m_03 .of img {
+  display: none;
+}
+#m_03 .of h3 {
+    margin: 30px 0 15px;
+}
+
+
+#m_04 {
+  display: none;
+}
+
+
+#m_05 {
+  margin: 20px 0 15px;
+}
+#m_05 i {
+  display: none;
+}
+#m_05 h3 {
+  margin: 30px 0 15px;
+}
+#m_05 img {
+  display: none;
+}
+
+
+#m_06 i {
+  display:none;
+}
+#m_06 .fl {
+  display:none;
+}
+#m_06 h3 {
+  margin: 30px 0 15px;
+}
+
+
+#mugi h2 {
+  display: none;
+}
+#mugi #m_07 .of img {
+  display: none;
+}
+#mugi #m_07 h3 {
+  margin: 30px 0 15px;
+}
+
+
+#m_08 .of img {
+  display: none;
+}
+#m_08 h3 {
+  margin: 30px 0 15px;
+}
+#m_08 p {
+  margin: 0 0 50px;
+}
+
+
+.message {
+  display:none;
+}
